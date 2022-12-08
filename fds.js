@@ -14,6 +14,7 @@ function generateNumber()
 		}
 	}
 	document.getElementById("fds-number").innerHTML = fiveDigitNumber;
+	document.getElementById("fds-square").innerHTML = '';
 }
 
 function generateSquare() 
