@@ -13,7 +13,7 @@ function generateNumber(digits)
 	{
 		case 2 :
 			fiveDigitNumber = Math.floor(Math.random() * 90 + 10);
-			console.log(fiveDigitNumber);
+			
 			document.getElementById("fds-number-two").innerHTML = fiveDigitNumber;
 			break;
 		case 3 :
