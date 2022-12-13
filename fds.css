@@ -1,7 +1,57 @@
+:root {
+  --primary: #6547a2;
+  --secondary: #FEC8D8;
+  --tertiary: #957DAD;
+}
+
+html {
+	font-family: 'Trebuchet MS', sans-serif;
+}
+
 #fds-heading {
 	display: block;
+	color: var(--primary);
+	text-align: center;
+}
+
+h2 {
+	margin-top: 18px;
 }
 
 .fds-button {
 	display: inline-block;
+}
+
+body {
+	background-color: var(--secondary);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: var(--tertiary);
+  padding: 10px;
+  max-width: 400px;
+  margin: auto;
+}
+
+.grid-item {
+	border: 1px solid var(--tertiary);
+	padding: 20px;
+	font-size: 16px;
+	text-align: center;
+	color: var(--primary);
+}
+
+.grid-item-left {
+  	background-color: var(--secondary);
+  
+}
+
+.grid-item-left:hover {
+	color: #492460;
+}
+
+.grid-item-right {
+  background-color: #FFDFD3;
 }
